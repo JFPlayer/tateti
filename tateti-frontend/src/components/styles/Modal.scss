@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+#modal {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modal__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: $backgroundColor;
+  opacity: 0.95;
+  height: 100vw;
+  max-height: 720px;
+  width: 100vw;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}

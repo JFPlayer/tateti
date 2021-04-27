@@ -1,0 +1,19 @@
+{
+  "name": "tateti",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "tateti-frontend",
+    "tateti-backend"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=tateti-frontend",
+    "start": "npm run start --workspace=tateti-backend",
+    "dev": "npm run build && npm run dev --workspace=tateti-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
