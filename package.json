@@ -7,6 +7,9 @@
     "tateti-frontend",
     "tateti-backend"
   ],
+  "engines": {
+    "npm": "7.9.0"
+  },
   "main": "index.js",
   "scripts": {
     "build": "npm run build --workspace=tateti-frontend",
